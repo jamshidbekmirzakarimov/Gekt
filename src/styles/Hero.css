@@ -1,0 +1,29 @@
+.hero-section {
+  padding-top: 70px;
+  background-image: url(../../assets/images/background-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
+.hero-section-title {
+  margin-top: 0;
+  width: 100%;
+  max-width: 550px;
+  font-family: "Roboto";
+  font-size: 90px;
+  line-height: 1.1em;
+  letter-spacing: -0.02em;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.hero-section-subtitle {
+  font-size: 26px;
+  width: 100%;
+  max-width: 350px;
+}
