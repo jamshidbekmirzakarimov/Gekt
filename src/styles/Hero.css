@@ -1,12 +1,13 @@
 .hero-section {
   padding-top: 70px;
+  padding-bottom: 50px;
   background-image: url(../../assets/images/background-header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc( - 90px);
 }
 
 .hero-section-title {
@@ -26,4 +27,44 @@
   font-size: 26px;
   width: 100%;
   max-width: 350px;
+  margin-top: 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .hero-section{
+    padding-top: 50px;
+  }
+
+  .hero-section-title {
+    margin-top: 0;
+    width: 100%;
+    max-width: 500px;
+    font-size: 80px;
+    line-height: 1.1em;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-section{
+    padding-top: 40px;
+  }
+
+  .hero-section-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hero-section-title {
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+    max-width: 450px;
+    font-size: 70px;
+    line-height: 1.1em;
+    margin-bottom: 30px;
+  }
 }

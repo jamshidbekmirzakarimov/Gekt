@@ -1,0 +1,52 @@
+.Facts-section{
+  padding: 70px 0 70px 0px;
+  background-color: #ffca2f;
+}
+
+.Facts-section-title{
+  margin-top: 0;
+  margin-bottom: 100px;
+  line-height: normal;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+
+.Facts-section-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+}
+
+.Facts-section-item{
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+
+
+
+.Facts-section-item-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: normal;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+.Facts-section-item-subtitle{
+  margin: 0;
+  text-align: center;
+  line-height: normal;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
