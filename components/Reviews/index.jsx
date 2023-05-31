@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const Reviews = () => {
   return (
     <>
-      <section className="swiper-section">
+      <section className="swiper-section" id="reviews">
         <div className="container">
           <h2 className="Reviews-title">
           ОТЗЫВЫ

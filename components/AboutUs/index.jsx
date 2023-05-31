@@ -4,7 +4,7 @@ import BackF from "../../assets/images/background-header.jpg"
 const AboutUs = () => {
   return (
     <>
-      <section className='AboutUs-section'>
+      <section className='AboutUs-section' id='aboutus'>
         <div className="container">
           <div className='AboutUs-section-wrapper'>
           <div className='AboutUs-section-box'>

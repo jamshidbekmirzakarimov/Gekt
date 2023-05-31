@@ -6,6 +6,8 @@ import '@/styles/Facts.css'
 import '@/styles/AboutUs.css'
 import '@/styles/Reviews.css'
 import '@/styles/OurClients.css'
+import '@/styles/Contact.css'
+import '@/styles/Footer.css'
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

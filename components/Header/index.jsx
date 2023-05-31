@@ -43,6 +43,7 @@ const Header = () => {
     setActiveItem(item);
   };
 
+ 
   return (
     <>
       <header className={`site-header  ${isScrolled ? "header-scroll" : ""}`}>
@@ -98,7 +99,7 @@ const Header = () => {
                     className={`site-nav-link ${
                       activeItem === "О нас" ? "actives" : ""
                     }`}
-                    href="#"
+                    href="#aboutus"
                     onClick={() => handleClick("О нас")}
                   >
                     О нас
@@ -113,7 +114,7 @@ const Header = () => {
                     className={`site-nav-link ${
                       activeItem === "Отзывы" ? "actives" : ""
                     }`}
-                    href="#"
+                    href="#reviews"
                     onClick={() => handleClick("Отзывы")}
                   >
                     Отзывы
@@ -128,7 +129,7 @@ const Header = () => {
                    className={`site-nav-link ${
                     activeItem === "Клиенты" ? "actives" : ""
                   }`}
-                    href="#"
+                    href="#clients"
                     onClick={() => handleClick("Клиенты")}
                   >
                     Клиенты
@@ -143,7 +144,7 @@ const Header = () => {
                    className={`site-nav-link ${
                     activeItem === "Контакты" ? "actives" : ""
                   }`}
-                    href="#"
+                    href="#contact"
                     onClick={() => handleClick("Контакты")}
                   >
                     Контакты
@@ -151,6 +152,7 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
+
             <div className="btn-box">
               <button className="site-header-btn">Позвонить</button>
               <button className="burger-btn" onClick={handleOpenMenu}>

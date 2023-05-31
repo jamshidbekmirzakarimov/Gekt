@@ -3,9 +3,9 @@ import React from "react";
 const OurClients = () => {
   return (
     <>
-      <section className="OurClients-section">
+      <section className="OurClients-section" id="clients">
         <div className="container">
-        НАШИ КЛИЕНТЫ
+        <h2 className="OurClients-section-title">НАШИ КЛИЕНТЫ</h2>
           <ul className="OurClients-section-list">
             <li className="OurClients-section-list">
               <svg
@@ -13,8 +13,8 @@ const OurClients = () => {
                 data-bbox="0.558 0.13 196.922 50.5"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0.558 0.13 196.922 50.5"
-                height="51"
-                width="198"
+                height="41"
+                width="178"
                 data-type="color"
                 role="presentation"
                 aria-hidden="true"
@@ -42,8 +42,8 @@ const OurClients = () => {
                 data-bbox="0.424 0.937 185.415 23.599"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0.424 0.937 185.415 23.599"
-                height="25"
-                width="186"
+                height="20"
+                width="176"
                 data-type="color"
                 role="presentation"
                 aria-hidden="true"
@@ -66,8 +66,8 @@ const OurClients = () => {
                 data-bbox="-0.01 0.796 245.721 51.114"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="-0.01 0.796 245.721 51.114"
-                height="52"
-                width="246"
+                height="42"
+                width="200"
                 data-type="color"
                 role="presentation"
                 aria-hidden="true"
@@ -90,8 +90,8 @@ const OurClients = () => {
                 data-bbox="0.405 0.672 246.651 33"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0.405 0.672 246.651 33"
-                height="34"
-                width="248"
+                height="30"
+                width="208"
                 data-type="color"
                 role="presentation"
                 aria-hidden="true"
@@ -114,8 +114,8 @@ const OurClients = () => {
                 data-bbox="0.844 0.929 180.389 35.578"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0.844 0.929 180.389 35.578"
-                height="37"
-                width="182"
+                height="30"
+                width="170"
                 data-type="color"
                 role="presentation"
                 aria-hidden="true"
