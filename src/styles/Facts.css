@@ -50,3 +50,37 @@
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
+
+@media only screen and (max-width: 760px) {
+  .Facts-section-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0px 0 0px;
+  }
+
+  .Facts-section-item{
+    margin-bottom: 25px;
+  }
+  .Facts-section-item:last-child{
+    margin-bottom: 0;
+  }
+  
+  .Facts-section-item-title{
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  
+  .Facts-section-title{
+    margin-top: 0;
+    margin-bottom: 50px;
+    line-height: normal;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+  }
+  
+}

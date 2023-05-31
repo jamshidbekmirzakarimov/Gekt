@@ -64,6 +64,10 @@
   color: #ffffff;
 }
 
+.actives{
+  color: #FFCA2F;
+}
+
 .menu {
   position: fixed;
   padding-top: 29px;
