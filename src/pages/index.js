@@ -9,7 +9,14 @@ import Reviews from '../../components/Reviews'
 import OurClients from '../../components/OurClients'
 import Contact from '../../components/Contact'
 import Head from "next/head";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <Header></Header>

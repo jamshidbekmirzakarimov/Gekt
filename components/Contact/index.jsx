@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <section className="Contact-section" id="contact">
         <div className="container">
-          <div className="contact-wrapper">
+          <div data-aos="fade-up" className="contact-wrapper">
             <div className="contact-start">
               <h2 className="contact-title">КОНТАКТЫ</h2>
               <h3 className="contact-subtitle">Мы ждем вас</h3>

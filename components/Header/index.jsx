@@ -48,7 +48,7 @@ const Header = () => {
     <>
       <header className={`site-header  ${isScrolled ? "header-scroll" : ""}`}>
         <div className="container">
-          <div className="site-header-wrapper">
+          <div data-aos="zoom-in" className="site-header-wrapper">
             <Link className="site-header-link" href="/">
               <Image
                 className="site-header-logo"
